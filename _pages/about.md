@@ -27,4 +27,4 @@ I am looking for a job in big data analytics with a focus on the following areas
 
 **Email**: jiehuizhou1997@gmail.com
 
-**Blog**: [Yuque](https://www.yuque.com/algzjh)
+**Blog**: [Yuque](https://www.yuque.com/algzjh) (for scientific research), [CSDN](https://algzjh.blog.csdn.net/) (for competitive programming in the past)
