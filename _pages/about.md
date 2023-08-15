@@ -23,7 +23,7 @@ I am currently a Ph.D. candidate at the State Key Laboratory of CAD&CG, School o
 
 I earned my B.S. degree in computer science and technology from Central South University in 2019. As an undergraduate student, I have conducted research under the supervision of Prof. [Jiazhi Xia](https://www.xiajiazhi.com/index.html), where I focused on high-dimensional data visualization.
 
-I am looking for a job in big data analytics with a focus on the following areas: data visualization and trustworthy artificial intelligence, such as explainable AI and causal inference.
+I am looking for a job in algorithms with a focus on the following areas: data visualization, risk control and trustworthy artificial intelligence, such as explainable AI and causal inference.
 
 **Email**: jiehuizhou1997@gmail.com
 
