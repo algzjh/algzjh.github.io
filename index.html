@@ -116,7 +116,7 @@
           <h1 class="post-title">
            Jiehui Zhou (周杰辉)
           </h1>
-          <p class="desc">Ph.D. candidate @ Zhejiang University</p>
+          <p class="desc">Ph.D. @ Zhejiang University</p>
         </header>
 
         <article>
@@ -145,11 +145,11 @@
           </div>
 
           <div class="clearfix">
-            <p>I am currently a Ph.D. candidate at the State Key Laboratory of CAD&amp;CG, School of Computer Science and Technology, Zhejiang University, China. I am in the <a href="https://zjuvag.org/" rel="external nofollow noopener" target="_blank">Visual Analytics and Intelligence Group</a> and under the supervision of Prof. <a href="http://www.cad.zju.edu.cn/home/chenwei/index_cn.html" rel="external nofollow noopener" target="_blank">Wei Chen</a>. My research topic is visual analytics approaches for multi-source heterogeneous time-series data, specifically involving <strong>visual analytics</strong>, <strong>out-of-distribution detection</strong>, <strong>causal analysis</strong>, and <strong>privacy preservation</strong>.</p>
+            <p>I graduated with my Ph.D. in 2024 from the State Key Laboratory of CAD&amp;CG, School of Computer Science and Technology, Zhejiang University, China. I am in the <a href="https://zjuvag.org/" rel="external nofollow noopener" target="_blank">Visual Analytics and Intelligence Group</a> and under the supervision of Prof. <a href="http://www.cad.zju.edu.cn/home/chenwei/index_cn.html" rel="external nofollow noopener" target="_blank">Wei Chen</a>. My research topic is visual analytics approaches for multi-source heterogeneous time-series data, specifically involving <strong>visual analytics</strong>, <strong>out-of-distribution detection</strong>, <strong>causal analysis</strong>, <strong>explainable AI</strong> and <strong>privacy preservation</strong>.</p>
 
 <p>I earned my B.S. degree in computer science and technology from Central South University in 2019. As an undergraduate student, I have conducted research under the supervision of Prof. <a href="https://www.xiajiazhi.com/index.html" rel="external nofollow noopener" target="_blank">Jiazhi Xia</a>, where I focused on high-dimensional data visualization.</p>
 
-<p>I am looking for a job in algorithms with a focus on the following areas: data visualization, risk control and trustworthy artificial intelligence, such as explainable AI and causal inference.</p>
+<p>I am currently an algorithm engineer in the Alimama department of Alibaba Taotian Group. I am interested in data analysis, visualization, risk control, and large model applications in the advertising field.</p>
 
 <p><strong>Email</strong>: jiehuizhou1997@gmail.com</p>
 
@@ -167,6 +167,90 @@
           <h2><a href="/publications/" style="color: inherit;">Selected publications</a></h2>
           <div class="publications">
             <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-4 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/CURLS-workflow-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/CURLS-workflow-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/CURLS-workflow-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/CURLS-workflow.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="CURLS-workflow.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="zhou2024curls" class="col-sm-6">
+        <!-- Title -->
+        <div class="title">CURLS: Causal Rule Learning for Subgroups with Significant Treatment Effect</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jiehui Zhou, Linxiao Yang, Xinyu Liu, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Xinyue Gu, Liang Sun, Wei Chen' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>ACM SIGKDD</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/abs/2407.01004" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="/assets/pdf/CURLS.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In causal inference, estimating heterogeneous treatment effects (HTE) is critical for identifying how different subgroups respond to interventions, with broad applications in fields such as precision medicine and personalized advertising. Although HTE estimation methods aim to improve accuracy, how to provide explicit subgroup descriptions remains unclear, hindering data interpretation and strategic intervention management. In this paper, we propose CURLS, a novel rule learning method leveraging HTE, which can effectively describe subgroups with significant treatment effects. Specifically, we frame causal rule learning as a discrete optimization problem, finely balancing treatment effect with variance and considering the rule interpretability. We design an iterative procedure based on the minorize-maximization algorithm and solve a submodular lower bound as an approximation for the original. Quantitative experiments and qualitative case studies verify that compared with state-of-the-art methods, CURLS can find subgroups where the estimated and true effects are 16.1% and 13.8% higher and the variance is 12.0% smaller, while maintaining similar or better estimation accuracy and rule interpretability. Code is available at https://osf.io/zwp2k/.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">zhou2024curls</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{CURLS: Causal Rule Learning for Subgroups with Significant Treatment Effect}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhou, Jiehui and Yang, Linxiao and Liu, Xinyu and Gu, Xinyue and Sun, Liang and Chen, Wei}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{ACM SIGKDD}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{ACM}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -374,7 +458,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Jiehui  Zhou. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2024 Jiehui  Zhou. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>
