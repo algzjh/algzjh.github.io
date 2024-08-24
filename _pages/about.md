@@ -9,8 +9,6 @@ profile:
   image: zhoujiehui.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Rm. 308, Mengminwei Bd.</p>
-    <p>Zhejiang University</p>
     <p>Hangzhou, China</p>
 
 news: false # includes a list of news items
@@ -23,8 +21,8 @@ I graduated with my Ph.D. in 2024 from the State Key Laboratory of CAD&CG, Schoo
 
 I earned my B.S. degree in computer science and technology from Central South University in 2019. As an undergraduate student, I have conducted research under the supervision of Prof. [Jiazhi Xia](https://www.xiajiazhi.com/index.html), where I focused on high-dimensional data visualization.
 
-I am currently an algorithm engineer in the Alimama department of Alibaba Taotian Group. I am interested in data analysis, visualization, risk control, and large model applications in the advertising field.
+I am currently an algorithm engineer in the [Alimama department](https://www.alimama.com/index.htm) of Alibaba Taotian Group. I am interested in data analysis, visualization, risk control, and large AI model applications in the E-commerce and advertising field.
 
 **Email**: jiehuizhou1997@gmail.com
 
-**Blog**: [Yuque](https://www.yuque.com/algzjh) (for scientific research), [CSDN](https://algzjh.blog.csdn.net/) (for competitive programming in the past)
+**Blog**: [Zhihu](https://www.zhihu.com/people/zhou-jie-hui-11) (for knowledge sharing), [Yuque](https://www.yuque.com/algzjh) (for research note management), [CSDN](https://algzjh.blog.csdn.net/) (for competitive programming in the past)
